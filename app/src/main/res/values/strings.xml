@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_headlines">Headlines</string>
+    <string name="title_trending">Trending</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="server_url">http://localhost:8080</string>
+    <string name="text_location_permission">Allow NewsApp to access this device\'s location?</string>
+    <string name="ok">ALLOW</string>
+    <string name="articlelink"><u>View Full Article</u></string>
+</resources>

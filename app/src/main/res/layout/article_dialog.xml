@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/sectionTabColor"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/dialog_image"
+            android:layout_width="300dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/default_guardian"
+            />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cleanBlack"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/dialogBorder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dialog_twitter"
+                android:layout_width="147dp"
+                android:layout_gravity="center"
+                android:layout_height="47dp"
+                android:scaleType="fitCenter"
+                android:layout_margin="1dp"
+                android:padding="5dp"
+                android:background="@color/cleanWhite"
+                android:src="@drawable/ic_twitter_logo_dialog"
+                />
+            <ImageView
+                android:id="@+id/dialog_bookmark"
+                android:layout_width="147dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:padding="5dp"
+                android:background="@color/cleanWhite"
+                android:src="@drawable/ic_bookmark_border_red_24dp"
+                />
+
+        </LinearLayout>
+
+<!--        <Button-->
+<!--            android:id="@+id/decline_button"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Close"/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
